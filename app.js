@@ -7,6 +7,7 @@ const result_p = document.querySelector(".result > p");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissors_div = document.getElementById("s");
+const reset_div = document.getElementById("reset-button");
 
 function getComputerChoice() {
     const choices = ['r', 'p', 's'];
@@ -75,6 +76,10 @@ function game(userChoice) {
     }
 }
 
+function resetGame() {
+    
+}
+
 function main() {
     rock_div.addEventListener('click', () => game("r")); //ES6 format
     paper_div.addEventListener('click', function() {
@@ -83,6 +88,8 @@ function main() {
     scissors_div.addEventListener('click', function() {
         game("s");
     })
+
+    reset_div.addEventListener('click', () => resetGame());
 }
 
 main();

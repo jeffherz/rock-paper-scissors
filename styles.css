@@ -100,6 +100,23 @@ header > h1 {
     
 }
 
+#reset-button {
+    text-align: center;
+    color: white;
+    background: #ec3b25;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 40px auto;
+    width: 55px;
+}
+
+#reset-button:hover {
+    background: #a31d0c;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
 .green-glow {
     border: 4px solid #4dcc7d;
     box-shadow: 0 0 10px #31b43a;
