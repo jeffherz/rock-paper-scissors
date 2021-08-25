@@ -45,12 +45,14 @@ header > h1 {
     position: absolute;
     top: 30px;;
     left: -25px;
+    background: #5cc9f5;
 }
 
 #computer-label {
     position: absolute;
     top: 30px;
     right: -30px;
+    background: #6638f0;
 }
 
 .result {
