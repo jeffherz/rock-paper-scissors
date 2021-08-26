@@ -77,7 +77,12 @@ function game(userChoice) {
 }
 
 function resetGame() {
-    
+    userScore = 0;
+    computerScore = 0;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_p.innerHTML = "Click on the icons below to play again!";
+
 }
 
 function main() {
